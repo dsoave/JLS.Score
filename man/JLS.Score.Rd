@@ -2,7 +2,7 @@
 % Please edit documentation in R/JLS.Score.R
 \name{JLS.Score}
 \alias{JLS.Score}
-\title{Generalized Joint Location Scale (gJLS) Test}
+\title{Score Tests for Joint Location and Scale Models}
 \usage{
 JLS.Score(y, X = NULL, W = NULL, Z = NULL)
 }

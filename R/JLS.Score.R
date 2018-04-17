@@ -1,4 +1,4 @@
-#' Generalized Joint Location Scale (gJLS) Test
+#' Score Tests for Joint Location and Scale Models
 #'
 #' This function performs the joint location and scale (JLS) or scale-only score tests (Soave, Lawless an Awadalla, submitted) to simultaneously test for mean and variance (or variance-only) associations with covariates.
 #' @param y response vector
