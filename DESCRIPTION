@@ -1,7 +1,7 @@
 Package: JLS.Score
-Title: What the Package Does (one line, title case)
+Title: Joint Location and Scale Score Tests
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: David Soave <david.soave@mail.utoronto.ca>
 Description: What the package does (one paragraph).
 Depends: R (>= 3.3.2)
 License: What license is it under?
