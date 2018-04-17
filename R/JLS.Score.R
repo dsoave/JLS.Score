@@ -9,7 +9,7 @@
 #' @export
 #' @author David Soave
 #' @details No missing data are allowed - function will return an "error". Outcome must be quantitative and covariates may be discrete (categorical) or continuous.
-#' @return a table consisting of test statistics, degrees of freedom and p-vaules for the score test using the observed (W_obs) and expected (W_exp) information covariance matrix, and the robust covariance estimators V_A(D,I), V_B(D,E(I)), and V_C(E(D),E(I)).
+#' @return A table consisting of test statistics, degrees of freedom and p-vaules for the score tests using the observed (W_obs) and expected (W_exp) information covariance matrix, and the robust covariance estimators V_A(D,I), V_B(D,E(I)), and V_C(E(D),E(I)) (see Soave et al., submitted).
 #' @references Soave, D., Lawless, J.F., and Awadalla, P. Score tests for association in location and scale models. Submitted.
 #' @examples
 #' #################################################################################

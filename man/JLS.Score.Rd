@@ -16,7 +16,7 @@ JLS.Score(y, X = NULL, W = NULL, Z = NULL)
 \item{Z}{vector (or matrix) of covariate(s) to be included as adjustment variables in the "location" portion of the model. If a matrix, each column represents a variable and each row represents an observation.}
 }
 \value{
-a table consisting of test statistics, degrees of freedom and p-vaules for the score test using the observed (W_obs) and expected (W_exp) information covariance matrix, and the robust covariance estimators V_A(D,I), V_B(D,E(I)), and V_C(E(D),E(I)).
+A table consisting of test statistics, degrees of freedom and p-vaules for the score tests using the observed (W_obs) and expected (W_exp) information covariance matrix, and the robust covariance estimators V_A(D,I), V_B(D,E(I)), and V_C(E(D),E(I)) (see Soave et al., submitted).
 }
 \description{
 This function performs the joint location and scale (JLS) or scale-only score tests (Soave, Lawless an Awadalla, submitted) to simultaneously test for mean and variance (or variance-only) associations with covariates.
